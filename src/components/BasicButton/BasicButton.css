@@ -1,0 +1,15 @@
+.BasicButton {
+  display: inline-block;
+}
+
+.BasicButton.size-normal {
+  font-size: 16px;
+}
+
+.BasicButton.size-medium {
+  font-size: 14px;
+}
+
+.BasicButton.size-small {
+  font-size: 10px;
+}
