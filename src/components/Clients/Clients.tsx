@@ -10,7 +10,7 @@ import FlexGrid from "../FlexGrid/FlexGrid";
 
 function Clients() {
   return (
-    <div>
+    <div className="Clients">
       <div>
         <p className="large-text text-centralized padding-top-40">
           Our Clients

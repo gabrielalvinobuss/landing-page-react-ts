@@ -6,4 +6,10 @@
 .FlexGrid.center-1440 {
   width: 1440px;
   margin: 0 auto;
+  padding: 0 144px;
+  box-sizing: border-box;
+}
+
+.FlexGrid.padding-104-lr {
+  padding: 0 104px;
 }

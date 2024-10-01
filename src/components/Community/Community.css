@@ -13,12 +13,8 @@
 }
 
 .Community .group-system-items {
-  width: 299px;
-  height: 260px;
   display: flex;
   gap: 127.5px;
-  margin-left: 144px;
-  margin-right: 144px;
   align-items: center;
 }
 

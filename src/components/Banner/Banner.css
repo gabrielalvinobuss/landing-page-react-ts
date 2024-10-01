@@ -1,17 +1,11 @@
-.box-banner2-text {
+.Banner .box-banner2-text {
   padding: 0 0 0 49px;
   width: 601px;
 }
 
-.padding-top-16 {
-  padding-top: 16px;
-}
-
-.image-banner2 {
-  justify-content: flex-start;
+.Banner .image-banner2 {
   width: 442px;
   height: 433px;
   padding-top: 41px;
   padding-bottom: 48px;
-  padding-left: 144px;
 }

@@ -1,5 +1,10 @@
-.background-grey {
-  background-color: #f5f7fa;
+.BannerMain {
+  position: relative;
+}
+
+.BannerMain .inner-gap {
+  display: flex;
+  gap: 104px;
 }
 
 .flex-grid {
@@ -10,10 +15,6 @@
 .container-text-banner {
   padding-top: 161.5px;
   padding-bottom: 161.5px;
-  padding-right: 104px;
-  padding-left: 144px;
-  width: 657px;
-  height: 276px;
 }
 
 .banner-gray-text {
@@ -45,7 +46,6 @@
   height: 407px;
   padding-top: 96px;
   padding-bottom: 96px;
-  padding-right: 144px;
 }
 
 /* ^ main banner css ^ */

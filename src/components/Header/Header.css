@@ -10,7 +10,6 @@
   display: flex;
   width: 154.49px;
   height: 24px;
-  padding-left: 104px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -21,17 +20,21 @@
   justify-content: center;
   height: 24px;
   flex: 1;
+  align-item: center;
 }
 
 .cursor-pointer {
   cursor: pointer;
 }
 
+.cursor-pointer:hover {
+  text-decoration: underline;
+}
+
 .login-signup {
   display: flex;
   height: 40px;
   padding-top: 23px;
-  padding-right: 120px;
   padding-bottom: 20px;
   gap: 14px;
   white-space: nowrap;
