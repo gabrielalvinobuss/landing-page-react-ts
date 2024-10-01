@@ -1,3 +1,5 @@
+import "./FlexGrid.css";
+
 type FlexGridParams = {
   children: React.ReactNode;
   center1440: boolean;
@@ -5,9 +7,10 @@ type FlexGridParams = {
 
 function getClassName(center1440: boolean) {
   if (center1440 === true) {
-    return "flex-grid center-1440";
+    return "FlexGrid flex-grid center-1440";
   }
-  return "flex-grid";
+
+  return "FlexGrid flex-grid";
 }
 
 function FlexGrid(params: FlexGridParams) {

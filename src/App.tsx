@@ -1,17 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import BasicButton from "./components/BasicButton/BasicButton";
 import Header from "./components/Header/Header";
 import BannerMain from "./components/BannerMain/BannerMain";
 import Banner from "./components/Banner/Banner";
 import Clients from "./components/Clients/Clients";
 import Community from "./components/Community/Community";
+import Helping from "./components/Helping/Helping";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>
@@ -31,6 +26,7 @@ function App() {
           bannerType={"banner1"}
         />
       </div>
+      <Helping />
       <Banner
         title={"How to design your site footer like we did"}
         text={

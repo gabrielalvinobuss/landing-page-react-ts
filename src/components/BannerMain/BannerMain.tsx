@@ -1,11 +1,12 @@
 import "./BannerMain.css";
 import bannerImage from "../../assets/banner-image.svg";
 import BasicButton from "../BasicButton/BasicButton";
+import FlexGrid from "../FlexGrid/FlexGrid";
 
 function BannerMain() {
   return (
     <div className="background-grey">
-      <div className="flex-grid center-1440">
+      <FlexGrid center1440>
         <div className="container-text-banner">
           <p className="banner-gray-text">Lessons and insights</p>
           <p className="green-text banner-gray-text">from 8 years</p>
@@ -22,7 +23,7 @@ function BannerMain() {
         <div className="image-banner1">
           <img src={bannerImage} />
         </div>
-      </div>
+      </FlexGrid>
     </div>
   );
 }

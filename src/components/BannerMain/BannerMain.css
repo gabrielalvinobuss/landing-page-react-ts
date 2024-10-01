@@ -2,11 +2,6 @@
   background-color: #f5f7fa;
 }
 
-.center-1440 {
-  width: 1440px;
-  margin: 0 auto;
-}
-
 .flex-grid {
   display: flex;
   align-items: center;

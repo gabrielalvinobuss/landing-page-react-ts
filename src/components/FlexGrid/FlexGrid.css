@@ -1,4 +1,9 @@
-.flex-grid {
+.FlexGrid.flex-grid {
   display: flex;
   align-items: center;
+}
+
+.FlexGrid.center-1440 {
+  width: 1440px;
+  margin: 0 auto;
 }
