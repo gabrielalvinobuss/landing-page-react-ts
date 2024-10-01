@@ -6,7 +6,7 @@ import groupSystemImage3 from "../../assets/group-system3.svg";
 
 function Community() {
   return (
-    <div>
+    <div className="Community">
       <div>
         <div className="large-text padding-top-40 text-box-community-section text-centralized">
           Manage your entire community in a single system

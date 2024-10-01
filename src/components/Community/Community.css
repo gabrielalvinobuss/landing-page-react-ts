@@ -1,25 +1,17 @@
-.large-text {
+.Community .large-text {
   font-size: 36px;
   line-height: 44px;
   color: #4d4d4d;
   font-weight: 600;
 }
 
-.padding-top-40 {
-  padding-top: 40px;
-}
-
-.text-box-community-section {
+.Community .text-box-community-section {
   width: 543px;
   height: 88px;
   margin: 0 auto;
 }
 
-.text-centralized {
-  text-align: center;
-}
-
-.small-text-padding-top-8 {
+.Community .small-text-padding-top-8 {
   color: #717171;
   font-size: 16px;
   line-height: 24px;
@@ -27,11 +19,7 @@
   padding-top: 8px;
 }
 
-.padding-top-16 {
-  padding-top: 16px;
-}
-
-.group-system-items {
+.Community .group-system-items {
   width: 299px;
   height: 260px;
   display: flex;
@@ -41,7 +29,7 @@
   align-items: center;
 }
 
-.group-system-items h1 {
+.Community .group-system-items h1 {
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
@@ -53,19 +41,19 @@
   padding-right: 16px;
 }
 
-.group-system-items h5 {
+.Community .group-system-items h5 {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
   color: #717171;
   padding-top: 8px;
-  padding-right: 24px;
   padding-bottom: 24px;
-  padding-left: 24px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
-.group-system-image {
+.Community .group-system-image {
   width: 65px;
   height: 56px;
   padding-left: 117px;
@@ -74,18 +62,19 @@
   padding-top: 24px;
 }
 
-.group-system-items .h5-group-system-center {
-  width: 240px;
+.Community .group-system-items .h5-group-system-center {
+  width: 220px;
+  margin: 0 auto;
 }
 
-.group-system-items .h1-group-system-right {
+.Community .group-system-items .h1-group-system-right {
   width: 231px;
   height: 72px;
   padding-left: 34px;
   padding-right: 34px;
 }
 
-.box-shadow-group-system {
+.Community .box-shadow-group-system {
   box-shadow: 0px 2px 4px #abbed1;
   border-radius: 8px;
   margin-top: 16px;

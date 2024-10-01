@@ -4,3 +4,15 @@
   font-family: "Inter", sans-serif;
   background-color: transparent;
 }
+
+.padding-top-16 {
+  padding-top: 16px;
+}
+
+.padding-top-40 {
+  padding-top: 40px;
+}
+
+.text-centralized {
+  text-align: center;
+}
