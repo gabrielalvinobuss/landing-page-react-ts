@@ -13,3 +13,27 @@
 .BasicButton.size-small {
   font-size: 10px;
 }
+
+.BasicButton.color-transparent {
+  cursor: pointer;
+  background-color: transparent;
+  color: #4caf4f;
+  border: none;
+}
+
+.BasicButton.color-green {
+  cursor: pointer;
+  background-color: #4caf4f;
+  border-radius: 6px;
+  color: white;
+  border: none;
+}
+
+.BasicButton.settings-login {
+  padding: 10px 20px;
+}
+
+.BasicButton.settings-normal {
+  margin-top: 32px;
+  padding: 14px 32px;
+}

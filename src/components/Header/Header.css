@@ -20,11 +20,6 @@
   padding-bottom: 30px;
 }
 
-.flex-grid {
-  display: flex;
-  align-items: center;
-}
-
 .menu-button-bar {
   display: flex;
   gap: 50px;

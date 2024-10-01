@@ -1,0 +1,56 @@
+.background-grey {
+  background-color: #f5f7fa;
+}
+
+.center-1440 {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.flex-grid {
+  display: flex;
+  align-items: center;
+}
+
+.container-text-banner {
+  padding-top: 161.5px;
+  padding-bottom: 161.5px;
+  padding-right: 104px;
+  padding-left: 144px;
+  width: 657px;
+  height: 276px;
+}
+
+.banner-gray-text {
+  color: #4d4d4d;
+  font-size: 64px;
+  line-height: 76px;
+  font-weight: 600;
+}
+
+.green-text {
+  color: #4caf4f;
+}
+
+.margin-top-32 {
+  margin-top: 32px;
+}
+
+.small-text-padding-top-16 {
+  color: #717171;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 16px;
+}
+
+.image-banner1 {
+  justify-content: flex-end;
+  width: 391px;
+  height: 407px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  padding-right: 144px;
+}
+
+/* ^ main banner css ^ */
