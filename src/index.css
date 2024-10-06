@@ -27,3 +27,42 @@
 .background-grey {
   background-color: #f5f7fa;
 }
+
+.green-text {
+  color: #4caf4f;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #4d4d4d;
+}
+
+h4 {
+  color: #717171;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+}
+
+.black-text {
+  color: #18191f;
+}
+
+.dark-grey-text {
+  color: #4d4d4d;
+}

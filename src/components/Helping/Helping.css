@@ -2,3 +2,35 @@
   position: relative;
   padding: 64px 0;
 }
+
+.Helping .achievements-box-left-text {
+  width: 540px;
+  height: 120px;
+}
+
+.Helping .icon {
+  width: 48px;
+  height: 48px;
+}
+
+.Helping .achievements-data {
+  display: flex;
+  width: 540px;
+  flex-flow: wrap;
+  gap: 30px;
+}
+
+.Helping .achievements-infos {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 255px;
+}
+
+.Helping .inner-grid-gap {
+  gap: 72px;
+}
+
+.Helping .padding-top-8 {
+  padding-top: 8px;
+}
