@@ -1,6 +1,8 @@
 .Banner .box-banner2-text {
-  padding: 0 0 0 49px;
+  /* padding: 0 0 0 49px; */
+  margin-left: 49px;
   width: 601px;
+  box-sizing: border-box;
 }
 
 .Banner .image-banner2 {
