@@ -1,19 +1,8 @@
-.large-text {
-  font-size: 36px;
-  line-height: 44px;
-  color: #4d4d4d;
-  font-weight: 600;
+.Clients {
+  position: relative;
 }
 
-.text-centralized {
-  text-align: center;
-}
-
-.padding-top-40 {
-  padding-top: 40px;
-}
-
-.small-text-padding-top-8 {
+.Clients .small-text-padding-top-8 {
   color: #717171;
   font-size: 16px;
   line-height: 24px;
@@ -21,7 +10,7 @@
   padding-top: 8px;
 }
 
-.clients-grid {
+.Clients .clients-grid {
   gap: 136px;
   justify-content: center;
   display: flex;
@@ -30,7 +19,7 @@
   padding-top: 16px;
 }
 
-.clients-logo {
+.Clients .clients-logo {
   padding-top: 25px;
   padding-bottom: 25px;
   width: 48px;

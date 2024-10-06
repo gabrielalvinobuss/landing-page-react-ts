@@ -34,3 +34,8 @@
 .Helping .padding-top-8 {
   padding-top: 8px;
 }
+
+.Helping .inner-gap {
+  gap: 72px;
+  display: flex;
+}
