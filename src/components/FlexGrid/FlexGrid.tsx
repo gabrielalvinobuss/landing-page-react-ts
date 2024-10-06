@@ -4,7 +4,6 @@ type FlexGridParams = {
   children: React.ReactNode;
   center1440: boolean;
   padding104?: boolean;
-  gap72?: boolean;
 };
 
 function getClassName(center1440: boolean, padding104?: boolean) {
