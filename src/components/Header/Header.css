@@ -2,11 +2,11 @@
   display: block;
 } */
 
-.background-grey {
+.Header .background-grey {
   background-color: #f5f7fa;
 }
 
-.logo-header {
+.Header .logo-header {
   display: flex;
   width: 154.49px;
   height: 24px;
@@ -14,7 +14,7 @@
   padding-bottom: 30px;
 }
 
-.menu-button-bar {
+.Header .menu-button-bar {
   display: flex;
   gap: 50px;
   justify-content: center;
@@ -23,15 +23,15 @@
   align-item: center;
 }
 
-.cursor-pointer {
+.Header .cursor-pointer {
   cursor: pointer;
 }
 
-.cursor-pointer:hover {
+.Header .cursor-pointer:hover {
   text-decoration: underline;
 }
 
-.login-signup {
+.Header .login-signup {
   display: flex;
   height: 40px;
   padding-top: 23px;
@@ -40,14 +40,14 @@
   white-space: nowrap;
 }
 
-.small-transparent-button {
+.Header .small-transparent-button {
   padding: 10px 20px;
   cursor: pointer;
   background-color: transparent;
   color: #4caf4f;
 }
 
-.small-rounded-green-button {
+.Header .small-rounded-green-button {
   padding: 10px 20px;
   cursor: pointer;
   background-color: #4caf4f;
