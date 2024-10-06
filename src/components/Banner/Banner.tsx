@@ -26,7 +26,7 @@ function Banner({
           )}
         </div>
         <div className="box-banner2-text">
-          <h1>{title}</h1>
+          <h2 className="dark-grey-text">{title}</h2>
           <h5 className="padding-top-16">{text}</h5>
           <BasicButton
             label={"Learn More"}
