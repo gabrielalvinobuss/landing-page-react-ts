@@ -5,6 +5,7 @@ import Banner from "./components/Banner/Banner";
 import Clients from "./components/Clients/Clients";
 import Community from "./components/Community/Community";
 import Helping from "./components/Helping/Helping";
+import Customers from "./components/Customers/Customers";
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
         }
         bannerType={"banner2"}
       />
+
+      <Customers />
     </>
   );
 }
