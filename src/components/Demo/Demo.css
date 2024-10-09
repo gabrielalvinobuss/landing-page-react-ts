@@ -1,0 +1,13 @@
+.Demo {
+  position: relative;
+}
+
+.Demo .content-area {
+  width: 887px;
+  margin: 0 auto;
+}
+
+.Demo.content-centralized {
+  margin: 0 auto;
+  padding-bottom: 32px;
+}

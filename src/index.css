@@ -44,6 +44,11 @@
   color: #89939e;
 }
 
+.headline-1 {
+  font-size: 64px;
+  line-height: 76px;
+  font-weight: 600;
+}
 h2 {
   font-weight: 600;
   font-size: 36px;
@@ -79,6 +84,10 @@ h5 {
 
 .black-text {
   color: #18191f;
+}
+
+.neutral-black-text {
+  color: #263238;
 }
 
 .dark-grey-text {

@@ -36,4 +36,6 @@
 .BasicButton.settings-normal {
   margin-top: 32px;
   padding: 14px 32px;
+  gap: 8px;
+  display: flex;
 }
