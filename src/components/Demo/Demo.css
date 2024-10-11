@@ -1,0 +1,8 @@
+.Demo {
+  position: relative;
+}
+
+.Demo .content-area {
+  width: 887px;
+  margin: 0 auto;
+}

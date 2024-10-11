@@ -1,16 +1,19 @@
+import FlexGrid from "../FlexGrid/FlexGrid";
 import "./BasicButton.css";
+import arrowRightWhite from "../../assets/arrow-right-white.svg";
 
 type ButtonSize = "normal" | "medium" | "small";
 
 type ButtonColor = "transparent" | "green";
 
-type ButtonSettings = "normal" | "login";
+type ButtonSettings = "normal" | "login" | "centralized";
 
 type BasicButtonParams = {
   label: string;
   size: ButtonSize;
   color: ButtonColor;
   settings: ButtonSettings;
+  arrow?: boolean;
 };
 
 function getClassName(
@@ -29,6 +32,20 @@ function getClassName(
 }
 
 function BasicButton(params: BasicButtonParams) {
+  if (params.arrow === true) {
+    return (
+      <FlexGrid center1440={true}>
+        <button
+          className={getClassName(params.size, params.color, params.settings)}
+        >
+          {params.label}
+          <div>
+            <img src={arrowRightWhite} />
+          </div>
+        </button>
+      </FlexGrid>
+    );
+  }
   return (
     <button
       className={getClassName(params.size, params.color, params.settings)}

@@ -6,6 +6,7 @@ import Clients from "./components/Clients/Clients";
 import Community from "./components/Community/Community";
 import Helping from "./components/Helping/Helping";
 import Customers from "./components/Customers/Customers";
+import Demo from "./components/Demo/Demo";
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
       />
 
       <Customers />
+
+      <Demo />
     </>
   );
 }
