@@ -6,7 +6,7 @@ type ButtonSize = "normal" | "medium" | "small";
 
 type ButtonColor = "transparent" | "green";
 
-type ButtonSettings = "normal" | "login";
+type ButtonSettings = "normal" | "login" | "centralized";
 
 type BasicButtonParams = {
   label: string;
@@ -34,7 +34,7 @@ function getClassName(
 function BasicButton(params: BasicButtonParams) {
   if (params.arrow === true) {
     return (
-      <FlexGrid center1440={false}>
+      <FlexGrid center1440={true}>
         <button
           className={getClassName(params.size, params.color, params.settings)}
         >
