@@ -7,6 +7,7 @@ import Community from "./components/Community/Community";
 import Helping from "./components/Helping/Helping";
 import Customers from "./components/Customers/Customers";
 import Demo from "./components/Demo/Demo";
+import CommunityUpdates from "./components/CommunityUpdates/CommunityUpdates";
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
       />
 
       <Customers />
+
+      <CommunityUpdates />
 
       <Demo />
     </>
