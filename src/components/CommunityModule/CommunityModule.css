@@ -22,3 +22,9 @@
   border-radius: 8px;
   margin-bottom: 94.6px;
 }
+
+.CommunityModule .community-updates-grid {
+  gap: 24px;
+  position: relative;
+  padding-bottom: 94.6px;
+}
