@@ -1,3 +1,8 @@
 .CommunityUpdates {
   position: relative;
 }
+
+.CommunityUpdates .text-content-area {
+  width: 628px;
+  margin: 0 auto;
+}

@@ -17,12 +17,20 @@
   padding-top: 32px;
 }
 
+.padding-top-38 {
+  padding-top: 38px;
+}
+
 .padding-top-40 {
   padding-top: 40px;
 }
 
 .text-centralized {
   text-align: center;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
 
 .large-text {
@@ -92,4 +100,7 @@ h5 {
 
 .dark-grey-text {
   color: #4d4d4d;
+}
+.medium-grey {
+  color: #717171;
 }
