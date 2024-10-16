@@ -1,0 +1,55 @@
+.CommunityModule {
+  position: relative;
+}
+
+.image-box-community-updates {
+  width: 368px;
+  height: 366px;
+}
+
+.inner-content-text-area {
+  width: 283px;
+  height: 84px;
+  margin: 0 auto;
+}
+
+.community-updates-content-box {
+  width: 317px;
+  height: 176px;
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  bottom: 0px;
+  margin-left: 25.5px;
+}
+
+.box-shadow-community-updates-content-box {
+  box-shadow: 0px 8px 16px #abbed1;
+  border-radius: 8px;
+  margin-bottom: 94.6px;
+}
+
+.community-updates-grid {
+  gap: 24px;
+  position: relative;
+  padding-bottom: 94.6px;
+}
+
+.readmore-button {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.justify-arrow-center {
+  justify-content: center;
+}
+
+/* BRINGING OLD .CSS SETTINGS TO TEST IT FIRST */
+
+.flex-grid {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
