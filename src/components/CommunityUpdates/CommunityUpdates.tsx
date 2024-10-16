@@ -1,4 +1,5 @@
 import CommunityModule from "../CommunityModule/CommunityModule";
+import FlexGrid from "../FlexGrid/FlexGrid";
 import "./CommunityUpdates.css";
 
 function CommunityUpdates() {
@@ -17,20 +18,22 @@ function CommunityUpdates() {
           </h4>
         </div>
       </div>
-      <CommunityModule
-        text={"Creating Streamlined Safeguarding Processes with OneRen"}
-        module={"1"}
-      />
-      <CommunityModule
-        text={
-          "What are your safeguarding responsibilities and how can you manage them?"
-        }
-        module={"2"}
-      />
-      <CommunityModule
-        text={"Revamping the Membership Model with Triathlon Australia"}
-        module={"3"}
-      />
+      <FlexGrid center1440>
+        <CommunityModule
+          text={"Creating Streamlined Safeguarding Processes with OneRen"}
+          module={"1"}
+        />
+        <CommunityModule
+          text={
+            "What are your safeguarding responsibilities and how can you manage them?"
+          }
+          module={"2"}
+        />
+        <CommunityModule
+          text={"Revamping the Membership Model with Triathlon Australia"}
+          module={"3"}
+        />
+      </FlexGrid>
     </div>
   );
 }
