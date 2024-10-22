@@ -11,8 +11,8 @@ function Footer() {
   return (
     <div className="Footer background-black">
       <FlexGrid center1440={true}>
-        <div className="footer-container flex-grid padding-bottom-footer padding-top-64">
-          <div className="footer-flex-grid flex-grid footer-company-info">
+        <div className="footer-container padding-bottom-footer padding-top-64">
+          <div className="footer-flex-grid footer-company-info">
             <div className="logo-footer">
               <img src={logoWhite} />
             </div>

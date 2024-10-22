@@ -13,3 +13,11 @@
 .FlexGrid.padding-104-lr {
   padding: 0 104px;
 }
+
+.FlexGrid.gap-12 {
+  gap: 12px;
+}
+
+.FlexGrid.gap-24 {
+  gap: 24px;
+}

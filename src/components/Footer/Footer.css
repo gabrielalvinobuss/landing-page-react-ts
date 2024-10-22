@@ -3,14 +3,17 @@
 }
 
 .Footer .footer-container {
+  display: flex;
   gap: 125px;
   justify-content: center;
 }
 
 .Footer .footer-flex-grid {
+  display: flex;
   flex-flow: column;
   gap: 40px;
   align-items: baseline;
+  justify-content: center;
 }
 
 .Footer .footer-company-info {

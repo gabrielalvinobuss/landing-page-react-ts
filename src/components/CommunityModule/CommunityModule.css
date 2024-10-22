@@ -45,11 +45,3 @@
 .justify-arrow-center {
   justify-content: center;
 }
-
-/* BRINGING OLD .CSS SETTINGS TO TEST IT FIRST */
-
-.flex-grid {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
