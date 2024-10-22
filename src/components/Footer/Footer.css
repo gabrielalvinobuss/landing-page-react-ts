@@ -1,0 +1,74 @@
+.Footer {
+  position: relative;
+}
+
+.Footer .footer-container {
+  gap: 125px;
+  justify-content: center;
+}
+
+.Footer .footer-flex-grid {
+  flex-flow: column;
+  gap: 40px;
+  align-items: baseline;
+}
+
+.Footer .footer-company-info {
+  padding-top: 64px;
+  padding-bottom: 74.33px;
+  width: 350px;
+}
+
+.Footer .logo-footer {
+  width: 191px;
+  height: 29.67px;
+}
+
+.Footer .footer-flex-social {
+  flex-flow: row;
+  gap: 16px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Footer .footer-links-parent {
+  gap: 30px;
+  flex-flow: row;
+  display: flex;
+}
+
+.Footer .footer-links-grid-col {
+  flex-flow: column;
+  gap: 12px;
+  align-items: baseline;
+  display: flex;
+  width: 160px;
+}
+
+.Footer .email-input-field {
+  width: 255px;
+  height: 40px;
+  background-color: rgb(255 255 255 / 20%);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.Footer .email-input-field input {
+  color: #d9dbe1;
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.Footer .email-input-field input::placeholder {
+  color: #d9dbe1;
+}
+
+.Footer .email-input-field input:focus {
+  border: none;
+  outline: none;
+}
