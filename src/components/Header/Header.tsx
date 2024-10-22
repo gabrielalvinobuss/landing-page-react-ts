@@ -4,15 +4,6 @@ import FlexGrid from "../FlexGrid/FlexGrid";
 import BasicButton from "../BasicButton/BasicButton";
 import { useEffect, useState } from "react";
 
-const menuItems: string[] = [
-  "Home",
-  "Service",
-  "Feature",
-  "Product",
-  "Testimonial",
-  "FAQ",
-];
-
 type TemplateDataType = {
   logo: string;
   menuItems: string[];
@@ -21,6 +12,15 @@ type TemplateDataType = {
 };
 
 function getServerData(): TemplateDataType {
+  const menuItems: string[] = [
+    "Home",
+    "Service",
+    "Feature",
+    "Product",
+    "Testimonial",
+    "FAQ",
+  ];
+
   return {
     loginLabel: "Login",
     logo: logo,
