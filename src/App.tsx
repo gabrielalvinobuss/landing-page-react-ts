@@ -8,6 +8,7 @@ import Helping from "./components/Helping/Helping";
 import Customers from "./components/Customers/Customers";
 import Demo from "./components/Demo/Demo";
 import CommunityUpdates from "./components/CommunityUpdates/CommunityUpdates";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -43,6 +44,8 @@ function App() {
       <CommunityUpdates />
 
       <Demo />
+
+      <Footer />
     </>
   );
 }

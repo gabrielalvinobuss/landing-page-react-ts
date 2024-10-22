@@ -25,6 +25,10 @@
   padding-top: 40px;
 }
 
+.padding-bottom-12 {
+  padding-bottom: 12px;
+}
+
 .padding-bottom-16 {
   padding-bottom: 16px;
 }
@@ -48,12 +52,24 @@
   background-color: #f5f7fa;
 }
 
+.background-black {
+  background-color: #263238;
+}
+
 .green-text {
   color: #4caf4f;
 }
 
 .neutral-grey-text {
   color: #89939e;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.light-grey {
+  color: #f5f7fa;
 }
 
 .headline-1 {
@@ -92,6 +108,12 @@ h5 {
   font-size: 15px;
   line-height: 20px;
   color: #717171;
+}
+
+.footer-h3 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 200;
 }
 
 .black-text {
