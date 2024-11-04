@@ -45,6 +45,41 @@ function Banner() {
     setBannerData(tempData);
   }, []);
 
+  if ((bannerData.bannerType = "banner1")) {
+    return (
+      <div className="Banner">
+        <FlexGrid center1440={true}>
+          <div className="image-banner2">
+            {bannerData.bannerImages.map((bannerImage: string, index: Key) => {
+              return <img key={index} src={bannerImage} />;
+            })}
+          </div>
+          <div className="box-banner2-text">
+            {bannerData.title.map((title: string, index: Key) => {
+              return (
+                <h2 key={index} className="dark-grey-text">
+                  {title}
+                </h2>
+              );
+            })}
+            {bannerData.text.map((text: string, index: Key) => {
+              return (
+                <h5 key={index} className="padding-top-16">
+                  {text}
+                </h5>
+              );
+            })}
+            <BasicButton
+              label={"Learn More"}
+              size={"medium"}
+              color={"green"}
+              settings={"normal"}
+            ></BasicButton>
+          </div>
+        </FlexGrid>
+      </div>
+    );
+  }
   return (
     <div className="Banner">
       <FlexGrid center1440={true}>

@@ -21,11 +21,11 @@ function App() {
 
       <Community />
 
-      <Banner bannerType={"banner1"} />
+      {/* <Banner bannerType={"banner1"} /> */}
 
       <Helping />
 
-      <Banner bannerType={"banner2"} />
+      {/* <Banner bannerType={"banner2"} /> */}
 
       <Customers />
 
